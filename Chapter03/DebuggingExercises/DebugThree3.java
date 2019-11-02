@@ -6,13 +6,13 @@ public class DebugThree3
    {
       String name;
       getName();
-      displayGreeting(name);           
+      displayGreeting(name);
    }
    public static String getName()
    {
       String name;
       Scanner input = new Scanner(System.in);
-      System.out.print(Enter name );
+      System.out.println(Enter name );
       name = input.nextInt();
       return name;
    }
